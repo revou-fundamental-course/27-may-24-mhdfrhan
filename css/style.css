@@ -209,6 +209,7 @@ section {
   border: none;
   background: none;
   cursor: pointer;
+  position: relative;
 }
 
 .btn span {
