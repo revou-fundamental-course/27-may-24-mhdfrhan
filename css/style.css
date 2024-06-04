@@ -392,6 +392,71 @@ footer p {
   margin-top: .25rem;
 }
 
+
+
+.message-form {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.output-container {
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-bottom: .5rem;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.input {
+  padding: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.form-container .button {
+  padding: 10px 20px;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #ff5c3b;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.output-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.output-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-bottom: .5rem;
+}
+
+.output-label {
+  font-weight: bold;
+}
+
+.output-value {
+  margin-left: 10px;
+}
+
 @keyframes pulse-animation {
   0% {
     box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
@@ -489,6 +554,20 @@ footer p {
 
   .bg-img h1 {
     font-size: 4vw;
+  }
+
+  .form-container {
+    display: flex;
+    gap: 30px;
+  } 
+
+  .message-form {
+    width: 50%;
+    margin-bottom: 0;
+  }
+  
+  .output-container {
+    width: 50%;
   }
 }
 

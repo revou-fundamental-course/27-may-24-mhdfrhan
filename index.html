@@ -366,6 +366,62 @@
       </div>
     </section>
 
+    <section>
+      <div class="container">
+        <div class="form-container">
+          <form class="message-form" method="post">
+            <div class="form-group">
+              <label class="label" for="name">Nama</label>
+              <input class="input" type="text" id="name" name="name" required autocomplete="off">
+            </div>
+            <div class="form-group">
+              <label class="label" for="birthdate">Tanggal Lahir</label>
+              <input class="input" type="date" id="birthdate" name="birthdate" required>
+            </div>
+            <div class="form-group">
+              <label class="label" for="gender">Jenis Kelamin</label>
+              <div>
+                <input type="radio" id="male" name="gender" value="Laki-Laki" required>
+                <label for="male">Laki-Laki</label>
+              </div>
+              <div>
+                <input type="radio" id="female" name="gender" value="Perempuan">
+                <label for="female">Perempuan</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="label" for="message">Pesan</label>
+              <textarea class="input" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button class="button" type="submit">Submit</button>
+          </form>
+      
+          <div class="output-container" id="output">
+            <div class="output-group">
+              <div class="output-label">Current time:</div>
+              <div class="output-value" id="current-time"></div>
+            </div>
+            <div class="output-group">
+              <div class="output-label">Nama:</div>
+              <div class="output-value" id="name-output"></div>
+            </div>
+            <div class="output-group">
+              <div class="output-label">Tanggal Lahir:</div>
+              <div class="output-value" id="birthdate-output"></div>
+            </div>
+            <div class="output-group">
+              <div class="output-label">Jenis Kelamin:</div>
+              <div class="output-value" id="gender-output"></div>
+            </div>
+            <div class="output-group">
+              <div class="output-label">Pesan:</div>
+              <div class="output-value" id="message-output"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <div class="container">
         <a href="#" class="logo">
